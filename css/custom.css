@@ -18,9 +18,11 @@ body {
     align-items: center;
 }
 
+
+
 .container {
-    width: 100rem;
-    padding: 200px;
+    width: 30rem;
+    padding: 100px;
     border-radius: 10px;
     font-size: 30px;
     background-color: white;
