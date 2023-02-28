@@ -7,6 +7,7 @@ const getColor = () => {
     const randomCode = "#" + randomNumber;
     document.body.style.backgroundColor = randomCode;
     document.getElementById("color-code").innerText = randomCode;
+    document.getElementById("color-code").style.color = randomCode;
 
     navigator.clipboard.writeText(randomCode)
 }
