@@ -203,7 +203,7 @@ function submit001() {
         }
     }
     else if (document.getElementById("color-code").innerText=="#74009d") {
-        if ((answer001 == 7)&&(answer002=="-")&&(answer003==0.10)) {
+        if ((answer001 == 7)&&(answer002=="7")&&(answer003==0.10)) {
             score001.innerHTML = z++;
             show004.innerHTML = "ถูกจ้า😀😀";
             message002.innerHTML = "";
@@ -222,7 +222,7 @@ function submit001() {
         }
     }
     else if (document.getElementById("color-code").innerText=="#a2a2a2") {
-        if ((answer001 == 8)&&(answer002=="-")&&(answer003==0.05)) {
+        if ((answer001 == 8)&&(answer002=="8")&&(answer003==0.05)) {
             score001.innerHTML = z++;
             show004.innerHTML = "ถูกจ้า😀😀";
             message002.innerHTML = "";
@@ -241,7 +241,7 @@ function submit001() {
         }
     }
     else if (document.getElementById("color-code").innerText=="#ffffff") {
-        if ((answer001 == 9)&&(answer002=="-")&&(answer003=="-")) {
+        if ((answer001 == 9)&&(answer002=="9")&&(answer003=="-")) {
             score001.innerHTML = z++;
             show004.innerHTML = "ถูกจ้า😀😀";
             message002.innerHTML = "";
